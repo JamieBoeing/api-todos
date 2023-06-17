@@ -1,9 +1,12 @@
 # ToDo-API-Testing Homework Lab
 
+    https://github.com/JamieBoeing/api-todos
 ## Description -
+
     This is an API built using express in node.js, and focuses on testing each endpoint and the overall function of the server. 
 
 ### Controllers - 
+
     A folder containing the file todo.js which contains all the CRUD methods that define our API Endpoints
     - GET/ todos- Get all the todo items
     - POST/ todos- Get all the todo items
@@ -13,7 +16,7 @@
 
 
 ### Models
-    a Todo Schema using Mongoose
+    a Todo Schema using Mongoose that creates an object model to apply the mongoose schema
 
 
 ### Routes
@@ -34,8 +37,9 @@
     - DELETE/ todos- Get all the todo items
 
 ### artillery.yml
-    Tests the load for a GET and POST
- #### Started phase 0, duration: 60s @ 19:09:42(-0500) 2023-06-16
+Artillery Tests the load for a GET and POST
+
+ Started phase 0, duration: 60s @ 19:09:42(-0500) 2023-06-16
 Report @ 19:09:52(-0500) 2023-06-16
 Elapsed time: 10 seconds
   Scenarios launched:  199
