@@ -8,12 +8,12 @@
 ### Controllers - 
 
     A folder containing the file todo.js which contains all the CRUD methods that define our API Endpoints
+    
     - GET/ todos- Get all the todo items
-    - POST/ todos- Get all the todo items
-    - GET/ todos- Get all the todo items
-    - PUT/ todos- Get all the todo items
-    - DELETE/ todos- Get all the todo items
-
+    - POST/ todos- Post a todo items
+    - GET/ todos- Get a specific todo items
+    - PUT/ todos- Update a specific todo items
+    - DELETE/ todos- Delete a todo item
 
 ### Models
     a Todo Schema using Mongoose that creates an object model to apply the mongoose schema
@@ -30,14 +30,14 @@
     Uses the express server and connects to the routes
 
 ### Tests
-- GET/ todos- Get all the todo items
-    - POST/ todos- Get all the todo items
     - GET/ todos- Get all the todo items
-    - PUT/ todos- Get all the todo items
-    - DELETE/ todos- Get all the todo items
+    - POST/ todos- Post a todo items
+    - GET/ todos- Get a specific todo items
+    - PUT/ todos- Update a specific todo items
+    - DELETE/ todos- Delete a todo item
 
 ### artillery.yml
-Artillery Tests the load for a GET and POST
+#### Artillery Tests the load for a GET and POST
 
  Started phase 0, duration: 60s @ 19:09:42(-0500) 2023-06-16
 Report @ 19:09:52(-0500) 2023-06-16
