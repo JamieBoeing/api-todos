@@ -1,0 +1,20 @@
+config:
+  target: 'http://localhost:3000'
+  phases: 
+    - duration: 60
+      arrivalRate: 20
+scenarios:
+  - flow:
+    - post:
+        url: "/todos"        
+        json: 
+         title: "Test Todo"
+         description: "Testing a todo item"
+         completed: false
+
+    - get:
+        url: "/todos"     
+        json: 
+         title: "Test Todo"
+         description: "Testing a todo item"
+         completed: false
